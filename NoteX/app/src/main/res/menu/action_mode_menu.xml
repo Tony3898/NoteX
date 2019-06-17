@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/actionarchive"
+        android:icon="@drawable/ic_archive"
+        android:title="Archive"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/actiondel"
+        android:icon="@drawable/ic_delete"
+        android:title="Delete"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/actionshare"
+        android:icon="@drawable/ic_share"
+        android:title="Share"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/actionrestore"
+        android:icon="@drawable/ic_restore"
+        android:title="Restore"
+        app:showAsAction="ifRoom" />
+</menu>
